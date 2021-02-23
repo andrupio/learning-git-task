@@ -3,7 +3,7 @@ shopping = {
     "piekarnia": ["chleb", "bułki", "pączek", "ptyś", "bułka słodka"],
     "sklep mobilny": ["marchew", "seler", "rukola"],
     "sklep zoologiczny": ["żółw czerwonolicy", "chomik", "papuga"],
-    "sklep wędkarski": []
+    "sklep wędkarski": ["spławik", "kołowrotek", "białe robaki"]
 }
 for key, value in shopping.items():
     print(f"Idę do", key.capitalize(),
