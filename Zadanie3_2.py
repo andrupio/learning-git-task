@@ -2,7 +2,8 @@ print("Zadanie 1")
 shopping = {
     "piekarnia": ["chleb", "bułki", "pączek", "ptyś", "bułka słodka"],
     "sklep mobilny": ["marchew", "seler", "rukola"],
-    "sklep zoologiczny": ["żółw czerwonolicy", "chomik", "papuga"]
+    "sklep zoologiczny": ["żółw czerwonolicy", "chomik", "papuga"],
+    "sklep wędkarski": []
 }
 for key, value in shopping.items():
     print(f"Idę do", key.capitalize(),
